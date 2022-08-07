@@ -76,6 +76,7 @@ class LoadDataFilesUI(QtWidgets.QWidget):
 
 
     def importFiles(self):
+        print("---------------importFiles")
 
         # Get all element in list widget
         items = []
